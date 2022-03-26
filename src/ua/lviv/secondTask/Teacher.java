@@ -4,8 +4,7 @@ public class Teacher extends Staff {
 
     private final String TYPE_PERSON="Teacher";
     public Teacher(String name, int salary) {
-	super.name = name;
-	super.salary = salary;
+	super(name,salary);
 	System.out.println(TYPE_PERSON);
 	// TODO Auto-generated constructor stub
     }
